@@ -9,6 +9,7 @@
   ],
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@snapshot-labs/pineapple": "^0.1.0-beta.1",
     "hardhat": "^2.11.2",
     "rimraf": "^3.0.2"
   },
@@ -17,5 +18,8 @@
     "tests": "npx hardhat test",
     "typechain": "npx hardhat typechain",
     "clean": "rimraf artifacts/* cache/* typechain-types/*"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
